@@ -1,4 +1,4 @@
-package com.cyx.zsfxpt.util;
+package com.cyx.zsfxpt.config.util;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
