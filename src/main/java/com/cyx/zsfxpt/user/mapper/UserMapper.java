@@ -1,5 +1,6 @@
 package com.cyx.zsfxpt.user.mapper;
 
+import com.cyx.zsfxpt.user.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
@@ -8,6 +9,7 @@ import java.util.List;
 @Mapper
 public interface UserMapper {
 
+    //@Param告诉java这个 String 参数在 SQL 里叫 phone
     User findByPhone(@Param("phone") String phone);
 
     User findByEmail(@Param("email") String email);

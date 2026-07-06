@@ -1,5 +1,6 @@
 package com.cyx.zsfxpt.user.service.impl;
 
+import com.cyx.zsfxpt.user.entity.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

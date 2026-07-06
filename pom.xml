@@ -134,17 +134,17 @@
 <!--			<version>9.5.0</version>-->
 <!--		</dependency>-->
 
-<!--		&lt;!&ndash; Spring Security：认证/鉴权框架基础 &ndash;&gt;-->
-<!--		<dependency>-->
-<!--			<groupId>org.springframework.boot</groupId>-->
-<!--			<artifactId>spring-boot-starter-security</artifactId>-->
-<!--		</dependency>-->
+		<!-- Spring Security：认证/鉴权框架基础 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
 
-<!--		&lt;!&ndash; OAuth2 Resource Server：用于校验 Bearer JWT（无状态 API 鉴权） &ndash;&gt;-->
-<!--		<dependency>-->
-<!--			<groupId>org.springframework.boot</groupId>-->
-<!--			<artifactId>spring-boot-starter-oauth2-resource-server</artifactId>-->
-<!--		</dependency>-->
+		<!-- OAuth2 Resource Server：用于校验 Bearer JWT（无状态 API 鉴权） -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-oauth2-resource-server</artifactId>
+		</dependency>
 
 <!--		&lt;!&ndash; Redis：Spring Data Redis（缓存、验证码、计数等存储） &ndash;&gt;-->
 <!--		<dependency>-->

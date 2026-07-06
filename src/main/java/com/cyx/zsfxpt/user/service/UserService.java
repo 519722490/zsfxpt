@@ -1,5 +1,7 @@
 package com.cyx.zsfxpt.user.service;
 
+import com.cyx.zsfxpt.user.entity.User;
+
 import java.util.Optional;
 
 /**
