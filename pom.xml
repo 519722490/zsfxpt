@@ -146,11 +146,11 @@
 			<artifactId>spring-boot-starter-oauth2-resource-server</artifactId>
 		</dependency>
 
-<!--		&lt;!&ndash; Redis：Spring Data Redis（缓存、验证码、计数等存储） &ndash;&gt;-->
-<!--		<dependency>-->
-<!--			<groupId>org.springframework.boot</groupId>-->
-<!--			<artifactId>spring-boot-starter-data-redis</artifactId>-->
-<!--		</dependency>-->
+		<!-- Redis：Spring Data Redis（缓存、验证码、计数等存储） -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-redis</artifactId>
+		</dependency>
 
 <!--		&lt;!&ndash; Redisson：分布式锁、限流等高级 Redis 能力封装 &ndash;&gt;-->
 <!--		<dependency>-->
