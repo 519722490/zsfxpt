@@ -1,0 +1,9 @@
+package com.cyx.zsfxpt.auth.loginlog;
+
+import org.apache.ibatis.annotations.Mapper;
+
+@Mapper
+public interface LoginLogMapper {
+
+    void insert(LoginLog log);
+}
